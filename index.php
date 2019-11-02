@@ -68,6 +68,10 @@
          <tr>
         </table>
     </div>
+         <?php
+            echo "<p>Welcome</p>";
+ <a href="login.php"> Click here to login 
+ <a href="register.php"> Click here to register 
     </body>
     
     
