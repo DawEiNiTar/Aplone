@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="YUNLA APP">
+	  <meta name="keywords" content="www.yunla.com">
+  	<meta name="author" content="လဝင္​းထြန္​း ">
+<meta property="og:image" content="A.jpg" />
+
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+      <title>​</title>
+      <style>
+      
+      body{ font-size:18px; background-color:coral;}
+      				}
+      div.pip{margin-left:10%; margin-right:10%; background-color:white;}
+      
+      a{text-decoration:none;
+      color:white;
+      font-family:arial;
+      font-size:12px;
+      border:dotted 1px white;
+      padding:10px;}
+      
+      a:active{color:coral;}
+      a:hover{color:coral;}
+      a:link{color:white;}
+       
+
+
+.but{ border-radius:10px;
+           border:solid pink 2px; 
+           background:coral; width:100%; height:40px;}
+           
+          
+      
+      .wc{margin-bottom:10px; margin-left:22.33%; margin-right:22.33%;}
+      
+       
+      
+      
+     .bola{font-family:times;color:coral;}
+     
+     #bola{color:coral; font-family:cursor;}
+     
+     img{ width:20%;
+      margin-left:auto; margin-right:auto; display:block;}
+      
+      .but-txt{font-size:18px; color:white;}
+      
+      .pip{border:solid coral 1px;
+      margin:10%;padding-bottom:5%; padding-top:5%;
+      position:relative; background-color:white;}
+      
+      section{font-size:8px; color:white;}
+      
+      input[type="text"],input[type="password"] { border:dashed 0.01px white; background:none;  margin-bottom:4px; border-left:none; border-right:none; border-top:none; margin-right:auto; margin-left:auto; width:40%; display:block;}
+      
+      #back{ display:block; margin-left:auto; margin-right:auto; width:40%; }
+      
+      
+      ::placeholder{color:white; text-align:center; text-shadow:2px 1px 0px pink;}
+      
+      ::-webkit-input-placeholder{color:pink; text-align:center;}
+      
+      :-ms-input-placeholder{color:white; text-align:center;}
+      
+      #sub{ margin-right:auto; margin-left:auto; width:40%; display:block;}
+      
+   input[type="submit"]{width:100%; height:30px; background:none; border:dotted 1px white; color:white;}
+     input[type="text"]:focus,input[type="password"]:focus{color:White; font-size:20px; text-shadow:2px 1px 0px red;}
+     
+      
+      </style>
+      
+      <script>
+      </script>
+      
+      </head>
+      <body>
+      
+      <div class="pip">
+<div>
+    <img src="yunla.jpg"/>
+    </div>
+    
+         
+            <center><p id="bola">Are you already a <span class="bola"> YunLa</span> user? </p></center>
+            
+<div class="wc">
+ <a href="login.php"> <button class="but"><span class="but-txt">Sign in</span>
+ </button> </a>
+ </div>
+ 
+ <center><p id="bola">Have you don't <span class="bola"> YunLa</span> account?  </p></center>
+            
+ <div class="wc">
+<a href="register.php"> <button class="but"><span class="but-txt">Sign up</span>
+</button></a>
+</div>
+ </div>
+ 
+ <div id="back">
+ <section id="img">
+
+
+<center><a href="index.html">Click here to go back</a></center>
+</div>
+<br>
+<br>
+
+<div id="fill">
+<form action="register.php" method="POST"> 
+<br>
+<br>
+<input type="text" name="username" required="required" placeholder="Enter User name" /> 
+<br>
+<br>
+<input type="password" name="password" required="required" placeholder="Enter Password" /> 
+
+
+<br>
+
+<div id="sub">
+
+<input type="submit" value="Log In"/> 
+
+</div>
+
+</form> 
+
+</div>
+
+</section>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
